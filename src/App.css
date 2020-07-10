@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,500,700&display=swap");
+:root {
+  --sidebar-flex: 1.5;
+  --condiv-flex: 6;
+  --fontsize-p: 1.2rem;
+  --fontsize-nav: 1.6rem;
+  --typing-font: 3rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto";
+}
+
+.App {
+  display: flex;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+select:required:invalid {
+  color: #666;
+}
+
+option[value=""][disabled] {
+  display: none;
+}
+
+option {
+  color: #000;
+}
+
+.borderRightLG {
+  border-right: 1px solid silver;
+}
+
+.disabled {
+  cursor: not-allowed! important;     
+}
+
+.card-list {
+  min-width: 530px;
+}
+
+.toast {
+  z-index:999;
+  max-width:480;
+  left:0;
+  right:0;
+  margin:auto;
+  box-shadow:5px 5px 5px #888888;
+  position:fixed;
+  top:0;
+}
+
+.confirm {
+  z-index:999;
+  height: 100px;
+  /* left:0; */
+  /* right:0; */
+  top: 50%;
+  bottom: 50%;
+  margin:auto;
+  box-shadow:5px 5px 5px #888888;
+  position:fixed;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.paginHov:hover {
+  background-color: #6c757d !important;
+}
+
+.blur{
+    -webkit-filter: blur(1px);
+    -moz-filter: blur(1px);
+    -o-filter: blur(1px);
+    -ms-filter: blur(1px);
+    filter: blur(1px);
+}
+
+.dropdown-menu {
+  /* border: none !important; */
+  /* padding: none !important; */
+  background: #212529 !important;
+}
+
+@media only screen and (max-width: 766px) {
+  .borderRightLG {
+    border-right: none;
+  }
+}
+
+@media only screen and (min-device-width: 992px) and (max-device-width: 1199px) {
+  .card-list {
+    min-width: 360px;
+  }
+}
