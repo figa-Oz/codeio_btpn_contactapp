@@ -31,7 +31,7 @@
     "body-parser": "^1.19.0",
     "bootstrap": "^4.4.1",
     "core-util-is": "^1.0.2",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.1",
     "react-bootstrap-table-next": "^4.0.3",
